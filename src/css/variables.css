@@ -1,0 +1,10 @@
+:root{
+    --primary-light: hsl(193, 38%, 86%);
+    --primary-neon: hsl(150, 100%, 66%);
+
+    --neutral-soft: hsl(217, 19%, 38%);
+    --neutral-medium: hsl(217, 19%, 24%);
+    --neutral-dark: hsl(218, 23%, 16%);
+}
+
+/* Font size (quote): 28px */

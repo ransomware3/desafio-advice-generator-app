@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+body{
+    font-family: 'Manrope', sans-serif;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--neutral-dark);
+    height: 100%;
+    padding: 20px;
+}
+
+
+.app{
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    background-color: var(--neutral-medium);
+    width: 100%;
+    max-width: 540px;
+    padding: 50px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+.title-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.title-container .title, .title-container p{
+    color: var(--primary-neon);
+    font-size: 12px;
+    letter-spacing: 6px;
+    margin-bottom: 25px;
+}
+
+
+.app .advice{
+    color: #fff;
+    font-size: 26px;
+    margin-bottom: 41px;
+}
+
+
+.app .divider{
+    margin-bottom: 23px;
+}
+
+
+.app .mobile-divider{
+    display: none;
+}
+
+
+.btn-advice{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: -30px;
+    border-radius: 50%;
+    background-color: var(--primary-neon);
+    background-image: url(../images/icon-dice.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+}
+
+
+.btn-advice:hover{
+    -webkit-box-shadow: 0px 0px 20px 6px rgba(71,211,156,1);
+    -moz-box-shadow: 0px 0px 20px 6px rgba(71,211,156,1);
+    box-shadow: 0px 0px 20px 6px rgba(71,211,156,1);
+}

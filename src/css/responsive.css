@@ -1,0 +1,46 @@
+@media(max-width: 600px){
+
+    .app .divider{
+        display: none;
+    }
+
+    .app .mobile-divider{
+        display: block;
+    }
+
+    .app .mobile-divider{
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width: 460px){
+
+    .app{
+        padding: 50px 30px;
+    }
+}
+
+
+@media(max-width: 375px){
+
+    .app{
+        padding: 60px 20px;
+    }
+
+    .app .advice{
+        margin-bottom: 31px;
+    }
+}
+
+
+@media(max-width: 360px){
+
+    .app{
+        font-size: 23px;
+        padding: 60px 10px;
+    }
+
+    .app .advice{
+        margin-bottom: 31px;
+    }
+}
